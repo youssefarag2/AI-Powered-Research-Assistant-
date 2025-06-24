@@ -1,14 +1,14 @@
-import express from "express";
-import { ExpressAuth } from "@auth/express";
-import Google from "@auth/express/providers/google";
+// import express from "express";
+// import { ExpressAuth } from "@auth/express";
+// import Google from "@auth/express/providers/google";
 
-const router = express.Router();
+// const router = express.Router();
 
-router.use(
-  "/",
-  ExpressAuth({
-    providers: [Google],
-  })
-);
+// router.use(
+//   "/auth",
+//   ExpressAuth({
+//     providers: [Google],
+//   })
+// );
 
-export default router;
+// export default router;
